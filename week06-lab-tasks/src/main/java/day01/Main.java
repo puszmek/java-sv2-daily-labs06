@@ -16,6 +16,9 @@ public class Main {
                 positiveNumberContainer.addNumber(number);
             }
         } while (number > 0);
+//        while ((number = scanner.nextDouble()) > 0) {
+//            positiveNumberContainer.addNumber(number);
+//        }
         System.out.println(positiveNumberContainer.getPositiveNumbers());
     }
 }
